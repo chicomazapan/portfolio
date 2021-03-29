@@ -21,19 +21,11 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-
-      <div class="hidden sm:ml-6 sm:block">
-        <div class="flex items-center">
-          
-          {/*<!-- Profile dropdown -->*/}
-        </div>
-      </div>
-
       <div class="-mr-2 flex sm:hidden">
         {/*<!-- Mobile menu button -->*/}
         <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
-          {/*<!--211
+          {/*<!--
             Icon when menu is closed.
 
             Heroicon name: outline/menu
@@ -65,7 +57,7 @@ const Navbar = () => {
       <a href="#" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
       <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Work</a>
       <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Resume</a>
-      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contacts</a>
+      <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
     </div>
   </div>
 </nav>
