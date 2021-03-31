@@ -8,13 +8,17 @@ const Navbar = () => {
     <div className="flex items-center justify-between h-16">
       <div className="flex items-center">
         <div className="flex-shrink-0">
+          <a href="/">
           <img className="block lg:hidden h-8 w-auto" src="/g icon.svg" alt="Workflow"/>
+          </a>
+          <a href="/">
           <img className="hidden lg:block h-8 w-auto" src="/brand.svg" alt="Workflow"/>
+          </a>
         </div>
         <div className="hidden sm:block sm:ml-6">
           <div className="flex space-x-4">
             {/*<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->*/}
-            <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+            <a href="/" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
             <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Work</a>
             <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Resume</a>
             <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
@@ -51,10 +55,10 @@ const Navbar = () => {
   </div>
 
   {/*<!-- Mobile menu, show/hide based on menu state. -->*/}
-  <div className="sm:hidden" id="mobile-menu">
+  <div className="md:hidden" id="mobile-menu">
     <div className="px-2 pt-2 pb-3 space-y-1">
       {/*<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->*/}
-      <a href="#" className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
+      <a href="/" className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
       <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Work</a>
       <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Resume</a>
       <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
