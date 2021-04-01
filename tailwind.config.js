@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend:{
+      fontFamily: {
+        custom: ['IBM Plex Sans', 'sans-serif'],
+      },
       height: {
         "10v": "10vh",
         "20v": "20vh",
